@@ -1,0 +1,109 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+/* overall layout*/
+a, a:hover { color:whitesmoke ; }
+
+
+
+.nav-pills .nav-link.active, .show > .nav-pills .nav-link {
+    background-color: #668F80;}
+
+.nav-item:hover {
+	background-color: whitesmoke;}
+.nav-item a{color:black;}
+#nav {background-color:#fff1e9; height: 75px; }
+
+
+body{ background-color: #dde6d5; }
+/*end of layout*/
+/* home page*/
+#title {background-image: url(bakery.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 300px;}
+
+#title h1 {font-family: "Lucida Handwriting", cursive; font-size: 50px;
+text-align: center;
+position: relative;
+top: 100px;
+color: #668F80 ; 
+background-color: #dde6d5}
+
+#title p {font-size: 20px;
+text-align: center;
+position: relative;
+top: 100px;
+color: white; background-color: #668F80; font-family: "Courier New", monospace; }
+
+
+#buttons {text-align: center; }
+#buttons img{border-radius: 50%;}
+h3 {font-family: "Courier New", monospace; text-decoration: underline dotted #668F80;}
+/*home page*/
+
+/*footer*/
+#footer {background-image: url(bakery.jpg);background-repeat: no-repeat; background-size: cover; height: 300px;}
+#footer {text-align: center; padding-top: 25px}
+#footer h2{font-family: "Lucida Handwriting", cursive; font-size: 25px;
+position: relative;
+color: #668F80 ; 
+background-color: #fff1e9}
+#footer p{position: relative;
+color: #fff1e9; 
+background-color: #668F80; font-size: 20px}
+#footer a{ background-color:#dde6d5; }
+#footer svg {color:black;}
+/*end of footer*/
+
+
+/*Menu page*/ 
+#menu h1{background-image: url(menu1.jpg); background-size: cover;background-repeat: no-repeat; height: 200px; 
+font-family: "Lucida Handwriting", cursive; font-size: 60px; text-align: center; padding-top: 50px;
+position: relative;
+color: white; }
+#menu h2{text-align: center; font-family:"Lucida Handwriting", cursive; font-size: 30px; color: #668F80; margin-top: 25px; }
+#menu h3{text-align: center; }
+#menu p{text-align: center; }
+
+/*special order*/
+#orders {background-image: url(special.jpg);background-size: cover;background-repeat: no-repeat; height: 400px; }
+#orders h1 {font-family: "Lucida Handwriting", cursive; font-size: 50px;
+text-align: center;
+position: relative;
+top: 100px;
+color: #668F80 ; 
+background-color: #dde6d5}
+#orders h3{font-size: 20px;
+text-align: center;
+position: relative;
+top: 100px;
+color: white; background-color: #668F80; font-family: "Courier New", monospace;}
+#flavors {margin-left: 25px; margin-top: 25px;}
+/* special order*/
+
+/*wedding page*/
+#wedd h1{background-image: url(wedd.jpg); background-size: cover;background-repeat: no-repeat; height: 200px; 
+font-family: "Lucida Handwriting", cursive; font-size: 60px; text-align: center; padding-top: 50px;
+position: relative;
+color: white; }
+#wedd h3{ padding-top: 75px; text-align:center; font-family: "Courier New", monospace;}
+#wedd p{text-align: center;}
+#wedd ul {text-align: center; list-style-position: inside;}
+#wedd ol {text-align: center; list-style-position: inside;}
+/*end of wedding page*/
+
+/*contact page*/
+#contact {background-image: url(outside.jpg);background-size: cover;
+background-repeat: no-repeat;
+height: 150px;}
+
+#contact h1 {font-family: "Lucida Handwriting", cursive; font-size: 50px;
+text-align: center;
+position: relative;
+top: 50px;
+color: #668F80 ; 
+background-color: #dde6d5}
+#contactus h2{text-align: center; background-color: #fff1e9; color: #668F80; font-family: "Courier New", monospace;}
+#contactus p{text-align: center;background-color: #668F80 }
+#contactus button{background-color:#668F80 }
+
+/*end of contact*/
